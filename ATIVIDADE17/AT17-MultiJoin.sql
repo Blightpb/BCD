@@ -268,6 +268,7 @@ where tb_pedido_roupa.data_pedido between '2024-11-01' and '2024-11-10';
 da roupa. Mostre apenas os pedidos feitos por clientes cuja cor favorita está disponível na roupa comprada. */
 select
 tb_cliente.primeiro_nome, 
+tb_cliente.sobrenome,
 tb_roupa.nome as nome_roupa,
 categoria_principal.nome as categoria_principal
 from tb_pedido_roupa
