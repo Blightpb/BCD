@@ -253,7 +253,8 @@ where total_vendido > 10;
 
 -- Exercício 9:  Liste o nome completo dos clientes, o nome da roupa e a data do pedido para pedidos realizados entre "2024-11-01" e "2024-11-10".
 select 
-tb_cliente.primeiro_nome,
+tb_cliente.primeiro_nome, 
+tb_cliente.sobrenome,
 tb_roupa.nome as nome_roupa,
 tb_pedido_roupa.data_pedido
 from tb_pedido_roupa
