@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+</head>
+<body>
+    <form action="">
+        <h1>Produtos Vendidos </h1>
+        <label for="none"> Nome do Produto: </label>
+        <input type="text" name="nome" id="nome"
+        required=" "required" autofocus><br>
+
+        <label for="none"> Preço(R$): </label>
+        <input type="number" name="preco" id="preco"
+        class="medidas" required placeholder="R$0,00" step="0.01"><br>
+
+        <label> Tipo do Produto:</label>
+        <select class="categoria"  name="categoria" required>
+        <option value="">Selecione o Tipo</option>
+        <option value="Bolsa">Bolsa</option>
+        <option value="Sapato">Sapato</option>
+        <option value="Camiseta">Camiseta</option>
+        <option value="Calça">Calça</option>
+        <option value="Acessório">Acessório</option>
+        </select> <br>
+
+        <label for="none"> Data da venda: </label>
+        <input type="date" name="data" id="data"
+        required=" "required" autofocus><br>
+
+        
+
+        <input type="submit" value="Enviar Produto(Simulação)" id="cadastrar" >
+    </p>
+ 
+    </form>
+</body>
+
+</html>
